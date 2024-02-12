@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saran Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./cool-responsive-portfolio-main/css/style.css">
+    
+        <!-- Other head elements -->
+    
+        <!-- Include the EmailJS SDK -->
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("ZW17Enz6o7zqn44Fw"); // Replace with your EmailJS user ID
+            })();
+        </script>
+    
+    
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Saran</h1>
+            <p>
+                I'm a developer who loves to create beautiful and functional projects.
+                My carrier objective is "To get an opportunity where I can make the best of my potential and
+                contribute to the organization's growth. Seeking a position in a company
+                where I can launch my career and build a valuable skill set."
+            </p>
+            <p>Currently I'm a student of PSNACET</p>
+
+            <div class="social-media">
+                <a href="mailto:k.saran.1932003@gmail.com?subject=Subject%20Text&body=Message%20Text">
+                    <i class='bx bxl-gmail'></i>
+                </a>
+
+                <a href="https://github.com/Saran1932003"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/saran-k-aa405626a"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="https://drive.google.com/file/d/1mJg4BmCv-KkTlh0M5lg7DkqY4CeLCFJk/view?usp=drive_link"
+                class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-globe'></i>
+                    <h3>IOT Engineer</h3>
+                </div>
+
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-trophy'></i>
+                    <h3>ECE Student</h3>
+                </div>
+
+
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="./cool-responsive-portfolio-main/images/InShot_20240111_194517634.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./cool-responsive-portfolio-main/images/WhatsApp Image 2024-01-09 at 1.21.01 PM.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, welcome to my website! I'm Saran,
+                a passionate developer who enjoys learning new technologies
+                and solving problems with code!
+            </h3>
+            <p>
+                This website is my personal blog where I write about projects.
+            </p>
+            <p>
+                Thank you for visiting my website and getting to know me better. I hope you
+                enjoyed reading my blog posts and
+                found
+                them useful and informative.
+            </p>
+            <a href="whatsapp://send?phone=9360062381" class="btn">Chat on WhatsApp</a>
+
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>As a web designer, I seamlessly merge creativity with technical prowess, crafting visually appealing
+                    and user-centric websites that leave a lasting impact.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-globe'></i>
+                <h3>IOT Engineer</h3>
+                <p>An IoT engineer proficient in designing and implementing interconnected systems for seamless data
+                    exchange, automation, and real-time monitoring across industries.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-trophy'></i>
+                <h3>Leadership</h3>
+                <p>Skillfully guiding teams to success through motivation, trust-building, and strategic
+                    direction.Proven ability to inspire and empower individuals for optimal productivity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./cool-responsive-portfolio-main/images/portfolio2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>AI Comments Generator</h4>
+                    <p>Assist beginners in comprehending the code by generating comments for each line they have
+                        written, enhancing their understanding of the codebase.</p>
+                    <a href="https://drive.google.com/drive/folders/1P1KerHAu4MX65jHT8T0tQlJV_A97Jd7O?usp=drive_link"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./cool-responsive-portfolio-main/images/portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Smart Supermarket</h4>
+                    <p>Smart infrastructure for Supermarkets which
+                        makes convenient way of purchasing and
+                        billing the products in Supermarkets
+                    </p>
+                    <a href="https://drive.google.com/drive/folders/1P1KerHAu4MX65jHT8T0tQlJV_A97Jd7O?usp=drive_link"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./cool-responsive-portfolio-main/images/portfolio3.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Task Manager</h4>
+                    <p>Made a basic task manger application using
+                        react and boot for basic web
+
+                        learning.
+                        spring
+                        development</p>
+                    <a href="https://drive.google.com/drive/folders/1P1KerHAu4MX65jHT8T0tQlJV_A97Jd7O?usp=drive_link"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading">My <span>Teammates</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="./cool-responsive-portfolio-main/images/InShot_20240111_195005873 (1).png" alt="">
+                        <h3>REMI PRAKA</h3>
+                        <p>Working alongside Remi Praka has been an invaluable experience. Her expertise in programming
+                            for embedded systems has been instrumental in overcoming challenges and achieving successful
+                            project outcomes. Remi's dedication, deep knowledge, and willingness to collaborate have
+                            made her an exceptional team member. Her contributions have significantly elevated our
+                            programming endeavors for embedded systems, and I am grateful for the support and guidance
+                            she consistently provides.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="./cool-responsive-portfolio-main/images/Screenshot 2024-01-11 203539.png" alt="">
+                        <h3>Navis Fathima</h3>
+                        <p>She has been an invaluable asset to our team, particularly in the realm of programming. Her
+                            expertise and willingness to assist have proven instrumental in enhancing my coding skills.
+                            Navis consistently goes above and beyond to provide clear guidance, making complex concepts
+                            more accessible. Working alongside her has been a pleasure, and her contributions have
+                            significantly contributed to our team's success.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="./cool-responsive-portfolio-main/images/Screenshot 2024-01-11 203725.png" alt="">
+                        <h3>Shanmuga Parimalam</h3>
+                        <p>I am extremely grateful for Shanmuga Parimalam's unwavering support throughout our projects.
+                            His dedication, expertise, and collaborative spirit significantly contributed to the success
+                            of our endeavors. His commitment to excellence and proactive assistance made him an
+                            invaluable team member. Working with him has been a truly enriching experience, and I highly
+                            appreciate his contributions to our shared successes.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form onsubmit="sendEmail(event)">
+            <div class="input-box">
+                <input type="text" name="from_name" placeholder="Full Name">
+                <input type="email" name="from_email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Subject">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="btn" type="submit" onclick="showAlert()">Submit</button>
+            <script>
+                function showAlert() {
+                  alert('Email sent successfully!');
+                }
+              </script>
+        </form>
+    </section>
+
+  
+
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="cool-responsive-portfolio-main/js/script.js"></script>
+</body>
+
+</html>
